@@ -1,0 +1,65 @@
+.finish-container {
+    width: 500px;
+    height: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.finish-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.finish-result-message {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #27ae60;
+}
+
+.finish-player-name {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+.finish-score-board {
+    margin-bottom: 2rem;
+}
+
+.finish-score-item {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+    color: #2c3e50;
+}
+
+.finish-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.finish-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.finish-button-primary {
+    background-color: #27ae60;
+    color: white;
+}
+
+.finish-button-secondary {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}

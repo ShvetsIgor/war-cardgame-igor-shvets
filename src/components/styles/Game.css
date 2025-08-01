@@ -1,0 +1,69 @@
+.gameContainer {
+    width: 500px;
+    height: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gameContainer > div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cardImg {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.cardImg:hover {
+    transform: scale(1.05);
+}
+
+.gameContainer p {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+h4 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: #2c3e50;
+}
+
+.gameContainer p + p {
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.gameContainer div div p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #34495e;
+}
