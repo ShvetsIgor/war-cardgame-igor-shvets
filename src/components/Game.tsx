@@ -32,7 +32,7 @@ const Game = ({playerName, onGameEnd}: GameProps) => {
 
     const nextTurn = () => {
         if (player1.length === 0 || player2.length === 0)
-            return Error("The end"); // конец игры
+            return Error("The end");
 
         const p1Card = player1[0];
         const p2Card = player2[0];

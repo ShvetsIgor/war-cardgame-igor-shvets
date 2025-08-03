@@ -5,12 +5,13 @@ import Finish from "./components/Finish";
 
 
 const App = () => {
+    const [screen, setScreen] = useState<"start" | "game" | "finish">("start");
+
     const [playerName, setPlayerName] = useState("");
     const [totalWins, setTotalWins] = useState(0);
     const [totalLosses, setTotalLosses] = useState(0);
     const [totalDraws, setTotalDraws] = useState(0);
     const [lastWinner, setLastWinner] = useState<"Computer" | "Player" | "Draw" | null>(null);
-    const [screen, setScreen] = useState<"start" | "game" | "finish">("start");
 
     const startGame = () => setScreen("game");
 
